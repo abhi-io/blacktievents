@@ -53,23 +53,23 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a href="index.html">home</a></li>
-                                            <li><a href="performer.html">Performer</a></li>
+                                            <!-- <li><a href="performer.html">Performer</a></li> -->
                                             
-                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                            <!-- <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
                                                     <li><a href="about.html">about</a></li>
                                                     <li><a href="Program.html">Program</a></li>
                                                     <li><a href="Venue.html">Venue</a></li>
                                                     <li><a href="elements.html">elements</a></li>
                                                 </ul>
-                                            </li>
+                                            </li> -->
                                             <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">blog</a></li>
                                                     <li><a href="single-blog.html">single-blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="#address_anchor_name">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -77,7 +77,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="buy_tkt">
                                     <div class="book_btn d-none d-lg-block">
-                                        <a href="#">Get In Touch</a>
+                                        <a href="https://wa.me/+919746797896/?text=I%20am%20interested%20in%20your%20services.%20My%20name%20is">Get In Touch <i class="fa fa-whatsapp" style="font-size:30px;color:green"></i> </a>
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +107,11 @@
                                 <img src="img/shape/shape_2.svg" alt="">
                             </div>
                             <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">Events</h3>
-                            <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">6 Aug, 2023</span>
+                            <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" id="date_today">   </span>
+                            <script>
+                                const d = new Date().toLocaleDateString("en-US");
+                                document.getElementById("date_today").innerHTML = d;
+                            </script>
                             <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Thiruvananthapuram, Kerala</p>
                         </div>
                     </div>
@@ -116,6 +120,94 @@
         </div>
     </div>
     <!-- slider_area_end -->
+
+
+    <!-- Corporate entertainment performar_area_start  -->
+    <div class="performar_area black_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title mb-80">
+                        <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Corporate Events</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/corporate_events/ce4.jpeg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Mr. Zosoldos</h4>
+                                    <span>Acoustic drum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/corporate_events/ce1.jpg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Protik Hasan</h4>
+                                    <span>Acoustic drum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/corporate_events/ce2.jpeg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Salmon Vicky</h4>
+                                    <span>Acoustic drum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div   class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/corporate_events/ce3.jpeg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Filaris Habol</h4>
+                                    <span>Acoustic drum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div   class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/corporate_events/ce6.jpeg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Filaris Habol</h4>
+                                    <span>Acoustic drum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div   class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/corporate_events/ce5.jpeg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Filaris Habol</h4>
+                                    <span>Acoustic drum</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Corporate entertainment performar_area_end  -->
+
 
     <!-- performar_area_start  -->
     <div class="performar_area black_bg">
@@ -199,7 +291,7 @@
                             <img src="img/shape/shape_3.svg" alt="">
                         </div>
                         <div class="thumb_inner  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                            <img src="img/about/about.png" alt="">
+                            <img src="img/logo-banner.jpeg" alt="">
                         </div>
                     </div>
                 </div>
@@ -207,7 +299,7 @@
                     <div class="about_info pl-68">
                         <h4 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">It’s time to book your seat</h4>
                         <p  class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">The event regularly attracts a diverse range of attendees from around the world, across different professions, and with different levels of experience transform your business.</p>
-                        <a href="#" class="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Contact Us <i class="fa fa-whatsapp" style="font-size:30px;color:green"></i></i> </a>
+                        <a href="https://wa.me/+919746797896/?text=I%20am%20interested%20in%20your%20services.%20My%20name%20is" class="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Contact Us <i class="fa fa-whatsapp" style="font-size:30px;color:green"></i></i> </a>
                     </div>
                 </div>
             </div>
@@ -287,9 +379,9 @@
 
     <!-- map_area_start  -->
     <div class="map_area">
+        <a id="address_anchor_name"></a>
         <div id="map" style="height: 600px; position: relative; overflow: hidden;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391.50887661374344!2d76.95491985683137!3d8.483594454230847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bba825a737ed%3A0x28bce65886617057!2sFXM3%2B7WV%2C%20Aryasala%20Rd%2C%20Pazhayasalai%2C%20Chalai%2C%20Thiruvananthapuram%2C%20Kerala%20695036!5e0!3m2!1sen!2sin!4v1691316272223!5m2!1sen!2sin" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
- 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2633.6094169191674!2d76.94343246459242!3d8.50369480352767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMzAnMTIuNSJOIDc2wrA1Nic0My4xIkU!5e0!3m2!1sen!2sin!4v1691697897602!5m2!1sen!2sin" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
         </div>
         <script>
             
@@ -329,19 +421,20 @@
         <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
         </script> -->
         <div class="location_information black_bg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-            <h3>Concert 2020</h3>
+            <h3>Blacktie Events and Media</h3>
             <div class="info_wrap">
                 <div class="single_info">
                     <span>Office:</span>
-                    <p>Aryasala, Thiruvananthapuram, Kerala - 695036</p>
+                    <p>University of Kerala Senate House Campus, Palayam,, Thiruvananthapuram, Kerala - 695034</p>
                 </div>
                 <div class="single_info">
                     <span>Phone:</span>
-                    <p>+91 8281 88 8288</p>
+                    <p>+91 97467 97896</p>
                 </div>
                 <div class="single_info">
                     <span>Email:</span>
-                    <p>contact@blackt.com</p>
+                    <p>blactieeventsandmedia1@gmail.com</p> 
+
                 </div>
             </div>
         </div>
@@ -401,7 +494,9 @@
                                 <!-- <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">12 Feb, 2020</h4>
                                 <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Green Avenue, New York</h3>
                                 <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">The event regularly attracts a diverse range of attendees from around the world.</p> -->
-                                <a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Contact Us <i class="fa fa-whatsapp" style="font-size:30px;color:green"></i></a>
+                                <a href="https://wa.me/+919746797896/?text=I%20am%20interested%20in%20your%20services.%20My%20name%20is" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Contact Us <i class="fa fa-whatsapp" style="font-size:30px;color:green"></i></a>
+
+                                <a href=""></a>
                             </div>
                         </div>
                     </div>
